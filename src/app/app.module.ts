@@ -56,6 +56,7 @@ import {MatTableModule} from '@angular/material/table';
 import { DataTablesModule } from "angular-datatables";
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTableExporterModule } from 'mat-table-exporter';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true,
@@ -76,6 +77,7 @@ const APP_CONTAINERS = [
     AvatarModule,
     MatPaginatorModule,
     BreadcrumbModule,
+    MatTableExporterModule,
     MatFormFieldModule,
     FooterModule,
     DropdownModule,

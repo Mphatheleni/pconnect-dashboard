@@ -6,6 +6,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table'
 import { MatInputModule } from '@angular/material/input';
+import { MatTableExporterModule } from 'mat-table-exporter';
 
 import {
   AvatarModule,
@@ -36,6 +37,7 @@ import { CalloutModule } from '@coreui/angular';
     MatPaginatorModule,
     MatInputModule,
     MatFormFieldModule,
+    MatTableExporterModule,
     CalloutModule
   ]
 })

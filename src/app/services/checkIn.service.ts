@@ -35,7 +35,7 @@ export class CheckInService {
   }
 
   organizationCheckIns(): Observable<EmployeeCheckIn[]> {
-    const booksRef = collection(this.firestore, 'organisations/oGcu3UbeRnb4oMkEnNmoQVZwEAh2/visits/0vtkRQhrheTLMz7OQPYv/guests');
+    const booksRef = collection(this.firestore, 'organisations/oGcu3UbeRnb4oMkEnNmoQVZwEAh2/visits/RitcpxIoCMEMlDLnM89Q/guests');
     return collectionData(booksRef) as Observable<EmployeeCheckIn[]>;
   }
 
