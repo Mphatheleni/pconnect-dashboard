@@ -39,6 +39,7 @@
     "datatables.net": "^1.11.3",
     "datatables.net-bs5": "^1.11.3",
     "jquery": "^3.6.0",
+    "mat-table-exporter": "^10.2.4",
     "ngx-perfect-scrollbar": "^10.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
