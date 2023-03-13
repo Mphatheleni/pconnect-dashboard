@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +8,11 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
-  constructor() { }
+  constructor(private router: Router) { }
+
+  logIn(){
+    console.log("onLogIn")
+    this.router.navigate(['/main'])
+  }
 
 }

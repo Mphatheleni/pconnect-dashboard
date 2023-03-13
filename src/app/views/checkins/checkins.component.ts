@@ -88,9 +88,9 @@ export class CheckinsComponent {
       this.dataSource.sort = this.sort;
     })
 
-    checkInService.organizationCheckIns2().subscribe(val => {
-      console.log(val)
-    })
+    // checkInService.organizationCheckIns2().subscribe(val => {
+    //   console.log(val)
+    // })
   }
 
   checkInsArray: any[] = [];
